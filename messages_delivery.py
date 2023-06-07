@@ -7,7 +7,7 @@ def messages_delivery(message):
     headers = {
       'Content-Type': 'text/plain; charset=utf-8'
     }
-    conn.request("POST", "/services/TGAN596N6/B05BJ3CDDFS/DpmeZN8wnYkWoWYl9DOJWax2", payload.encode("utf-8"), headers)
+    conn.request("POST", "/services/XXXX/XXXX/XXXXXXXX", payload.encode("utf-8"), headers)
     print(conn.getresponse().read().decode("utf-8"))
 
 if __name__ == '__main__':
